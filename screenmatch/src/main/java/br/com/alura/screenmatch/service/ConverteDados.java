@@ -11,4 +11,3 @@ public class ConverteDados implements IConverteDados {
         return mapper.readValue(json, classe);
     }
 }
-// se precisar coloca try catch
